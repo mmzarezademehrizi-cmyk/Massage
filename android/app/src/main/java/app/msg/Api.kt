@@ -11,7 +11,7 @@ import java.net.HttpURLConnection
 import java.net.URL
 
 // آدرس Worker بعد از دیپلوی روی کلودفلر
-const val BASE = "https://REPLACE.workers.dev"
+const val BASE = "https://msg-api.m-m-zarezade-mehrizi.workers.dev"
 
 data class Msg(val id: Long, val from: String, val to: String, val text: String?, val key: String?, val name: String?, val type: String?)
 
